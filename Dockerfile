@@ -4,7 +4,7 @@
 ## Most automation platforms do this better from outside the docker build
 ###
 
-FROM node:16-bullseye-slim as base
+FROM node:22-bullseye-slim as base
 
 ENV NODE_ENV=production
 
